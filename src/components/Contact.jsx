@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import styled from '@emotion/styled';
-
+import Contactame from '../sections/contact.mdx'
 import Divider from '../elements/divider';
 import Inner from '../elements/inner';
 import Content from '../elements/content';
@@ -54,7 +54,7 @@ const Contact = ({ offset }) => (
       </div>
     </Divider>
     <Content speed={0.4} offset={offset}>
-      <Inner>{/* Contact Component MDX  */}</Inner>
+      <Inner> <Contactame /></Inner>
       <Footer />
     </Content>
     <Divider speed={0.1} offset={offset}>

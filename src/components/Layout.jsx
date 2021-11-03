@@ -1,11 +1,13 @@
 import React from 'react';
 import { Global } from '@emotion/react';
 import { css, Themed } from 'theme-ui';
+import SEO from './Seo';
 
 // import Seo
 
 const Layout = ({ children, className }) => (
   <Themed.root>
+    <SEO />
     <Global
       styles={css({
         '*': {

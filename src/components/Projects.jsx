@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-
+import Misproyectos from '../sections/projects.mdx'
 import Divider from '../elements/divider';
 import Inner from '../elements/inner';
 import Content from '../elements/content';
@@ -28,7 +28,7 @@ const Projects = ({ offset }) => (
             h2: { gridColumn: `-1/1`, color: `white !important` },
           }}
         >
-          {/* Projects component MDX */}
+          <Misproyectos />
         </div>
       </Inner>
     </Content>

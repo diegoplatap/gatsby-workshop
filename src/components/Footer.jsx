@@ -54,7 +54,7 @@ const Footer = () => {
           aria-label="Link to the workshop author's website"
           href="https://www.khriztianmoreno.dev"
         >
-          @khriztianmoreno
+          @diegooplata
         </Themed.a>
       </Flex>
     </footer>

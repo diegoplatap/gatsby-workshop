@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MyAbout from '../sections/about.mdx'
 import Inner from '../elements/inner';
 import Content from '../elements/content';
 import ShapesAbout from './shapes/about';
@@ -10,7 +10,7 @@ const About = ({ offset }) => (
   <div>
     <ShapesAbout offset={offset} />
     <Content speed={0.4} offset={offset}>
-      <Inner>{/* About component MDX */}</Inner>
+      <Inner><MyAbout /></Inner>
     </Content>
   </div>
 );
